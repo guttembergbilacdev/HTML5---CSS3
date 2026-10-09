@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5 </title>
+</head>
+<body>
+    <h1>Inserindo videos Hospedados localmente</h1>
+    <p>este video está hospedado no meu próprio servidor</p>
+    
+    <video width="560" poster="imargem/capa.png" controls loop>
+         <source src="midias/Meu-Video.Mp4.mp4" width="500" type="video/mp4"><!-- o video mp4 é mais pesado, mas é suportado por todos os navegadores -->
+         <source src="midias/Meu-Video.Mp4.webm" width="560" type="video/webm"><!-- o video webm é mais leve e mais rápido, mas não é suportado por todos os navegadores -->
+       
+    </video>
+    <audio src="audio/Blue Deer Studio.mp3" controls loop></audio><!-- o audio mp3 é suportado por todos os navegadores -->
+  
+    <h1>Incorporar video do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5osZk9Mw94w?si=CXNHLWzwLwn3KKlv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><!-- o video do youtube é mais leve, mas depende da conexão com a internet -->
+
+    <h1>Incorporar o video do Guanabara</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=Rgh0TvEqhSx7p-5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
