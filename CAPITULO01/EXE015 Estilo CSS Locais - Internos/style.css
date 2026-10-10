@@ -1,0 +1,31 @@
+       @charset "UTF-8";
+        /* CSS Documento */
+       
+       body {
+            background-color: rgb(189, 155, 155);
+            color: black;
+            font-family: Arial, sans-serif;
+            padding: 35px;
+            /* Adiciona espaçamento interno de 35 pixels em todos os lados do corpo da página */
+        }
+        h1 {
+            color: brown;
+            font-size: 20px;
+            background-color: aliceblue;
+            font-style: italic;
+            text-decoration: underline;
+            /* Adiciona sublinhado ao texto do elemento h1 */
+        }
+        h2 {
+           
+            color: brown;
+            font-size: 18px;
+            background-color: aliceblue;
+            font-style: italic;
+            text-decoration: underline;
+            /* Adiciona sublinhado ao texto do elemento h2 */
+        }
+        p {
+            text-align: justify;
+            /* Alinha o texto do elemento parágrafo de forma justificada */
+        }
