@@ -29,8 +29,12 @@
 
 html, body{
     min-width: 100%;
-    background-color: darkgray;
+    background-color: rgba(112, 110, 110, 0.747);
     font-family: var(--fonte4);
+    letter-spacing: 0.05em;
+    width: 0 auto;
+    margin: 0 auto;
+    
     
 }
 
