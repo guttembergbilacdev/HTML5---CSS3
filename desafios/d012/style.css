@@ -30,7 +30,7 @@
 html, body{
     min-width: 100%;
     background-color: darkgray;
-    font-family: var(--fonte3);
+    font-family: var(--fonte4);
     
 }
 
@@ -44,7 +44,7 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 10vw;
+    font-size: 90px;
 }
 
 header > p{
@@ -64,7 +64,7 @@ header a:hover footer a:hover{
 section{
     padding-top: 10%;
     padding-bottom: 2em;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 5.5vw;
@@ -72,7 +72,7 @@ section{
 }
 
 section > p{
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 section.normal{
@@ -103,7 +103,7 @@ background-position: ;
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.37);
     text-shadow: 1px, 1px, 0px;
    
 }
