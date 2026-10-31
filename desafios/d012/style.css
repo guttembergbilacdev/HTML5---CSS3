@@ -16,7 +16,7 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
-    
+       
 }
 
 :root {
@@ -31,24 +31,24 @@ html, body{
     min-width: 100%;
     background-color: rgba(112, 110, 110, 0.747);
     font-family: var(--fonte4);
-    letter-spacing: 0.05em;
-    width: 0 auto;
-    margin: 0 auto;
-    
-    
+       
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
+    padding-bottom: 20px;
+    
 }
+
 
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 90px;
+    font-size: clamp(4rem, 8vw, 6.5rem)
+        
 }
 
 header > p{
@@ -71,7 +71,7 @@ section{
     line-height: 1.5em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 5.5vw;
+    font-size: 3.5vw;
         
 }
 
@@ -100,7 +100,7 @@ background-position: right center;
 
 section#img02{
 background-image: url(../d012/imagens/background002.jpg);
-background-position: ;
+
 
 }
 
