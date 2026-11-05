@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+                font-family: Arial, Helvetica, sans-serif;
+            
+            }
+            
+            h1 {
+                text-align: center;
+                color: black;
+            }
+
+        table {
+                border-collapse: collapse;
+                width: 500px;
+                
+            }
+        caption {
+                font-size: 1.3em;
+                font-weight: bold;
+                padding: 8px;
+                                             
+            }
+        th, td {
+                border: 1px solid #000;
+                padding: 10px;
+                            
+            }
+
+  
+        /*
+        col.cnome {
+                background-color: royalblue;
+            }
+        col.cidade {
+                background-color: lightblue;
+            }
+        col.csexo {
+                background-color: lightgreen;
+            }
+        col.cprof {
+                background-color: lightgray;
+            }
+        */
+
+        .azul{
+            background-color: royalblue;
+        }
+
+        .verde{
+            background-color: lightgreen;
+        }
+
+    </style>
+
+</head>
+<body>
+   <h1>Execícios de Tabelas</h1>
+
+<table>
+    <!--
+    <colgroup>
+    <col class="cnome">
+    <col class="cidade">
+    <col class="csexo">
+    <col class="cprof">
+    </colgroup>
+    -->
+    <!--
+    <colgroup>
+    <col class="cnome">
+    <col class="cgrupo" span="2">
+    <col class="csexo">
+    <col class="cprof">
+    </colgroup>
+    -->
+    <colgroup>
+    <col class="azul">
+    <col class="verde">
+    <col class="azul">
+    <col class="verde">
+    </colgroup>
+
+    <caption>Cadastro de Clientes</caption>
+    <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Profissão</th>
+    </tr>
+    <tr>
+        <td>Ana Maria</td>
+        <td>25</td>
+        <td>Feminino</td>
+        <td>Engenheira</td>
+    </tr>
+    <tr>
+        <td>João Pedro</td>
+        <td>30</td>
+        <td>Masculino</td>
+        <td>Médico</td>
+    </tr>
+    <tr>
+        <td>Carla Souza</td>
+        <td>28</td>
+        <td>Feminino</td>
+        <td>Advogada</td>
+    </tr>
+    <tr>
+        <td>Lucas Lima</td>
+        <td>35</td>
+        <td>Masculino</td>
+        <td>Professor</td>
+    </tr>
+</table>   
+
+
+    </tbody>
+</table>
+
+ 
+ 
+</body>
+</html>
